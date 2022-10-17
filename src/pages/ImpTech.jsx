@@ -7,7 +7,7 @@ import Elips from "../img/Ellipse81.png";
 const ImpTech = () => {
   return (
     <>
-      <div style={{ backgroundImage: `url(${bgpartcles7})`, zIndex: "100" }}>
+      <div className="background" style={{ backgroundImage: `url(${bgpartcles7})`, zIndex: "100" }}>
         <div className="flex justify-center space-x-4 md:flex bg-black pt-9">
           <div className="">
             <div className="max-w-7xl mx-auto">
@@ -96,7 +96,7 @@ const ImpTech = () => {
           </div>
         </div>
 
-        <div className="bg-black flex justify-around pb-10 pt-10">
+        <div className=" background bg- flex justify-around pb-10 pt-10">
           {/* <img className="object-right-bottom" src={Elips} /> */}
           {/* <img className="bg-cover bg-center" src={{bgpartcles7}} alt="ss"/> */}
           <div className="w-2/4 justify-center text-center m-auto flex-col">

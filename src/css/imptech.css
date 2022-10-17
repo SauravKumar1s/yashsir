@@ -1,4 +1,6 @@
-
+.background {
+  background: radial-gradient(circle, rgb(14, 33, 31) 0%, rgba(0,0,0,1) 100%);
+}
  .h1tag {
     display:inline-block;
     overflow:hidden;

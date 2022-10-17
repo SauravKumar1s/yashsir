@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        headerClr: '#1E1E1E'
+        headerClr: '#1E1E1E',
+        gradiabtClr : '#124140'
       }
     },
   },
