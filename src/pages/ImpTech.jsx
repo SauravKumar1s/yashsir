@@ -96,14 +96,14 @@ const ImpTech = () => {
           </div>
         </div>
 
-        <div className=" background bg- flex justify-around pb-10 pt-10">
+        <div className="background bg- flex justify-around pb-10 pt-10" >
           {/* <img className="object-right-bottom" src={Elips} /> */}
           {/* <img className="bg-cover bg-center" src={{bgpartcles7}} alt="ss"/> */}
           <div className="w-2/4 justify-center text-center m-auto flex-col">
             <h1 className="text-white text-5xl h1tag">
               <span className="text-blue-600">Immersive</span> <br></br> Technology
             </h1>
-            <h2 className="text-white mb-10 mt-4 ml-12">
+            <h2 className="text-white justify-center text-start mb-10 mt-4 ml-12">
               The immersive experience can Thrill you, Educate you, Train you,
               and can make you imagine the world without any limits. It feels
               exceptional when you touch the limits with your Virtual Reality
@@ -119,8 +119,8 @@ const ImpTech = () => {
             </button>
           </div>
 
-          <div className="flex w-2/4 ">
-            <img className="mymove" src={supergirl} />
+          <div className="flex w-2/4 " data-aos="fade-up-left">
+            <img className=" z-50"  src={supergirl} />
           </div>
         </div>
       </div>
