@@ -7,12 +7,12 @@ import "../css/cardwithman.css";
 const CardWithMan = () => {
   return (
     <>
-      <div className="background flex justify-center items-end bg-black">
-        <div>
+      <div className="background  flex justify-center items-end bg-black">
+        <div className="floating z-50 fade-in-right ">
           <img src={vrgirl} alt="" />
         </div>
 
-        <div className="w-2/4 bg-gray-700 p-6 rounded-lg shadow-lg h-72 justify-center ">
+        <div className="mymove w-2/4 bg-gray-700 p-6 rounded-lg shadow-lg h-72 justify-center ">
           <h2 className="text-2xl font-bold mb-2 text-white">lorem 42</h2>
           <p className="text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
@@ -31,13 +31,13 @@ const CardWithMan = () => {
             temporibus nihil a maiores aliquid sit.
           </p>
         </div>
-        <div>
+        <div className="mymove z-50">
           <img src={vrman} alt="" />
         </div>
       </div>
 
-      <div className="background flex justify-center items-center bg-black">
-        <div>
+      <div className="background  z-50 flex justify-center items-center bg-black">
+        <div className="mymovee">
           <img src={vrguy} alt="" />
         </div>
 

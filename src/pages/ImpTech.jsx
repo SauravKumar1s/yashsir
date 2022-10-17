@@ -120,7 +120,7 @@ const ImpTech = () => {
           </div>
 
           <div className="flex w-2/4 ">
-            <img className="" src={supergirl} />
+            <img className="mymove" src={supergirl} />
           </div>
         </div>
       </div>
