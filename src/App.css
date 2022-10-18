@@ -1,22 +1,22 @@
 .backgroundImg{
-  background: url(img/Bg2.png)  center center fixed; 
+  background: url(img/BgParticles.svg) no-repeat center center ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .backgroundImg2{
-  background: url(img/Bg2.png) no-repeat center center fixed; 
+  background: url(img/BgParticles.svg) no-repeat center center ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-/* .backgroundImghead{
+.backgroundImghead{
   background: url(img/Bgheadk.png)  center center ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-} */
+}
