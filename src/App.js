@@ -15,7 +15,7 @@ import Footer from "./pages/Footer";
 function App() {
   return (
     <>
-      <div className="bg-black ">
+      <div className="bg-black scroll-smooth hover:scroll-auto ">
         <div className="backgroundImghead">
           <Navbar />
           <Home />

@@ -4,6 +4,8 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  z-index: 100;
+  scroll-behavior: smooth;
 }
 .backgroundImg2{
   background: url(img/BgParticles.svg) no-repeat center center fixed; 
@@ -11,6 +13,9 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  z-index: 100;
+  scroll-behavior: smooth;
+
 }
 
 .backgroundImghead{
