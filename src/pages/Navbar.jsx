@@ -1,13 +1,15 @@
 import React from "react";
 import bgImg from "../img/BgParticles-12.png";
-import "../css/navbar.css"
+import img1 from "../img/HomeBg-1.png";
+// import img2 from "../img/BgParticles-12.png";
+import bgpart from "../img/Bg2.png";
+import ImpTech from "./ImpTech";
+
+import "../css/navbar.css";
 
 const Navbar = () => {
   return (
-    <header    style={{
-      // backgroundImage: `url(${bgImg}) `,
-    
-    }} className="w-full  text-white shadow-lg hidden md:block">
+    <header className="  text-white shadow-lg hidden md:block">
       <div className="container mx-auto flex items-center h-24">
         <a href="" className="flex items-center justify-center">
           <span className="ml-4 uppercase font-black">Javvry</span>
@@ -47,6 +49,7 @@ const Navbar = () => {
           </button>
         </div>
       </div>
+     
     </header>
   );
 };

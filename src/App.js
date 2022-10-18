@@ -16,22 +16,19 @@ function App() {
   return (
     <>
       <div className="bg-black ">
-        {/* <img className="object-fill w-full h-screen z-50" src={bgpart2} />
-        <div className="absolute w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <div className="flex flex-col text-center  justify-center items-center">
-            <Navbar />
-            <Home />
-          </div>
-        </div> */}
-      
-      
-          <div className=" backgroundImg " >
-            <ImpTech/>
-          </div>
-          <div className=" backgroundImg2 " >
-            <CardWithMan/>
-          </div>
-    
+        <div className="backgroundImghead">
+          <Navbar />
+          <Home />
+        </div>
+
+        <div className="  ">
+          <ImpTech />
+          <CardWithMan />
+        </div>
+        <WeAre/>
+        <TechWithWork/>
+        <LoginPage/>
+        <Footer/>
       </div>
     </>
   );

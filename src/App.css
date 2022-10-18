@@ -1,14 +1,22 @@
 .backgroundImg{
-  background: url(img/Bgpart3.png) no-repeat center center fixed; 
+  background: url(img/Bg2.png)  center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .backgroundImg2{
-  background: url(img/bgpart4.png) no-repeat center center fixed; 
+  background: url(img/Bg2.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
+/* .backgroundImghead{
+  background: url(img/Bgheadk.png)  center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
