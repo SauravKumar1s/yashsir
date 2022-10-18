@@ -6,9 +6,8 @@ const Navbar = () => {
   return (
     <header    style={{
       // backgroundImage: `url(${bgImg}) `,
-      position:'relative',
-      zIndex:'1000',
-    }} className="  bg-black  text-white shadow-lg hidden md:block">
+    
+    }} className="w-full  text-white shadow-lg hidden md:block">
       <div className="container mx-auto flex items-center h-24">
         <a href="" className="flex items-center justify-center">
           <span className="ml-4 uppercase font-black">Javvry</span>

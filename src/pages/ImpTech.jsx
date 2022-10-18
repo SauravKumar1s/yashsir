@@ -1,14 +1,17 @@
 import React from "react";
-import bgpartcles7 from "../img/BgParticles-7.png";
+import bgpartcles12 from "../img/BgParticles-12.png";
 import supergirl from "../img/supergirl.png";
-import "../css/imptech.css"
+import "../css/imptech.css";
 
-import Elips from "../img/Ellipse81.png";
+
 const ImpTech = () => {
   return (
     <>
-      <div className="background" style={{ backgroundImage: `url(${bgpartcles7})`, zIndex: "100" }}>
-        <div className="flex justify-center space-x-4 md:flex bg-black pt-9">
+      <div
+        className="backgroundImg border-b-2 border-gray-700 shadow-lg"
+        
+      >
+        <div className="flex justify-center space-x-4 md:flex  pt-9">
           <div className="">
             <div className="max-w-7xl mx-auto">
               <div className="relative group">
@@ -29,8 +32,8 @@ const ImpTech = () => {
                   </svg>
                   <div className="space-y-2">
                     <p className="text-white">
-                    Metaverse Market size USD 824.53 Billion <br></br> or more by 2030
-
+                      Metaverse Market size USD 824.53 Billion <br></br> or more
+                      by 2030
                     </p>
                   </div>
                 </div>
@@ -58,7 +61,8 @@ const ImpTech = () => {
                   </svg>
                   <div className="space-y-2">
                     <p className="text-white">
-                    Metaverse Market size USD 824.53 Billion <br></br> or more by 2030
+                      Metaverse Market size USD 824.53 Billion <br></br> or more
+                      by 2030
                     </p>
                   </div>
                 </div>
@@ -86,8 +90,8 @@ const ImpTech = () => {
                   </svg>
                   <div className="space-y-2">
                     <p className="text-white">
-                    Metaverse Market size USD 824.53 Billion <br></br> or more by 2030
-
+                      Metaverse Market size USD 824.53 Billion <br></br> or more
+                      by 2030
                     </p>
                   </div>
                 </div>
@@ -95,32 +99,33 @@ const ImpTech = () => {
             </div>
           </div>
         </div>
+        <div className="backgroundImg2 bg-black">
+          <div className=" flex justify-around pb-10 pt-10">
+            <div className="w-2/4 justify-center text-center m-auto flex-col">
+              <h1 className="text-white text-5xl h1tag">
+                <span className="text-blue-600">Immersive</span> <br></br>{" "}
+                Technology
+              </h1>
+              <h2 className="text-white justify-center text-start mb-10 mt-4 ml-12">
+                The immersive experience can Thrill you, Educate you, Train you,
+                and can make you imagine the world without any limits. It feels
+                exceptional when you touch the limits with your Virtual Reality
+                headsets. Things become more alive, active, visible. Janvry
+                Studio believes in freedom which can be achieved with Virtual
+                Reality technology, for every people in this world just like you
+                and me.
+              </h2>
+              <button
+                type="button"
+                className="p-2 w-36  bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-2xl text-white"
+              >
+                Contact us
+              </button>
+            </div>
 
-        <div className="background bg- flex justify-around pb-10 pt-10" >
-          {/* <img className="object-right-bottom" src={Elips} /> */}
-          {/* <img className="bg-cover bg-center" src={{bgpartcles7}} alt="ss"/> */}
-          <div className="w-2/4 justify-center text-center m-auto flex-col">
-            <h1 className="text-white text-5xl h1tag">
-              <span className="text-blue-600">Immersive</span> <br></br> Technology
-            </h1>
-            <h2 className="text-white justify-center text-start mb-10 mt-4 ml-12">
-              The immersive experience can Thrill you, Educate you, Train you,
-              and can make you imagine the world without any limits. It feels
-              exceptional when you touch the limits with your Virtual Reality
-              headsets. Things become more alive, active, visible. Janvry Studio
-              believes in freedom which can be achieved with Virtual Reality
-              technology, for every people in this world just like you and me.
-            </h2>
-            <button
-              type="button"
-              className="p-2 w-36  bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-2xl text-white"
-            >
-              Contact us
-            </button>
-          </div>
-
-          <div className="flex w-2/4 " data-aos="fade-up-left">
-            <img className=" z-50"  src={supergirl} />
+            <div className="flex w-2/4 " data-aos="fade-up-left">
+              <img className=" " src={supergirl} />
+            </div>
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ import "../css/cardwithman.css";
 const CardWithMan = () => {
   return (
     <>
-      <div className="background  flex justify-center items-end bg-black">
+      <div className="backgroundImg2 border-b-2 border-gray-700  flex justify-center items-end bg-">
         <div className=" ">
           <img data-aos="fade-up-right" data-aos-duration="2000" src={vrgirl} alt="" />
         </div>
@@ -22,7 +22,7 @@ const CardWithMan = () => {
         </div>
       </div>
 
-      <div className="background flex justify-center items-end bg-black">
+      <div className="backgroundImg flex justify-center items-end bg-black">
         <div className="w-2/4 bg-gray-700 p-6 rounded-lg shadow-lg h-72 justify-center "data-aos="fade-up-right" data-aos-duration="2000">
           <h2 className="text-2xl font-bold mb-2 text-white">lorem 42</h2>
           <p className="text-white">
@@ -36,12 +36,12 @@ const CardWithMan = () => {
         </div>
       </div>
 
-      <div className="background  z-50 flex justify-center items-center bg-black">
+      <div className="backgroundImg2 border-gray-700  z-50 flex justify-center items-center bg-black">
         <div className="mymovee">
           <img data-aos="fade-up-left" data-aos-duration="2000"src={vrguy} alt="" />
         </div>
 
-        <div data-aos="fade-up-right" data-aos-duration="2000" className="w-2/4 bg-gray-700 p-6 rounded-lg shadow-lg h-72 justify-center items-start">
+        <div data-aos="fade-up-right" data-aos-duration="2000" className=" backgroundMan w-2/4  bg-gray-700 p-6 rounded-lg shadow-lg h-72 justify-center items-start">
           <h2 className="text-2xl font-bold mb-2 text-white">lorem 42</h2>
           <p className="text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
