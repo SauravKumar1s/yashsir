@@ -7,7 +7,7 @@ import "../css/cardwithman.css";
 const CardWithMan = () => {
   return (
     <>
-      <div className="backgroundImg2 border-b-2 border-gray-700  flex justify-center items-end bg-">
+      <div className="  flex justify-center items-end bg-">
         <div className=" ">
           <img data-aos="fade-up-right" data-aos-duration="2000" src={vrgirl} alt="" />
         </div>
@@ -22,7 +22,7 @@ const CardWithMan = () => {
         </div>
       </div>
 
-      <div className="backgroundImg flex justify-center items-end bg-black">
+      <div className="backgroundImg2 flex justify-center items-end bg-black">
         <div className="w-2/4 bg-gray-700 p-6 rounded-lg shadow-lg h-72 justify-center "data-aos="fade-up-right" data-aos-duration="2000">
           <h2 className="text-2xl font-bold mb-2 text-white">lorem 42</h2>
           <p className="text-white">

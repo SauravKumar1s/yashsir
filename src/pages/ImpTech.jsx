@@ -2,6 +2,8 @@ import React from "react";
 import bgpartcles12 from "../img/BgParticles-12.png";
 import supergirl from "../img/supergirl.png";
 import "../css/imptech.css";
+import "../css/cardwithman.css";
+import CardWithMan from "./CardWithMan";
 
 
 const ImpTech = () => {
@@ -123,10 +125,11 @@ const ImpTech = () => {
               </button>
             </div>
 
-            <div className="flex w-2/4 " data-aos="fade-up-left">
-              <img className=" " src={supergirl} />
+            <div className="flex w-2/4 ">
+              <img className="mymove" src={supergirl} />
             </div>
           </div>
+          <CardWithMan/>
         </div>
       </div>
     </>

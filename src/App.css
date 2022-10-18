@@ -1,5 +1,5 @@
 .backgroundImg{
-  background: url(img/BgParticles.svg) no-repeat center center ; 
+  background: url(img/BgParticlesLower.svg) no-repeat  ; 
   /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover; */
@@ -8,20 +8,24 @@
   scroll-behavior: smooth;
 }
 .backgroundImg2{
-  background: url(img/BgParticles.svg) no-repeat center center ; 
+  background: url(img/BgParticlesLower.svg) no-repeat  ; 
   /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover; */
-  background-size: cover;
+  /* background-size: cover; */
   z-index: 100;
   scroll-behavior: smooth;
 
 }
 
 .backgroundImghead{
-  background: url(img/Bgheadk.png)  center center ; 
+  background: url(img/BgParticles-12.png)   ;
+  /* position: relative; */
+  /* top: 50px; */
+  /* position: absolute;  */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
 }

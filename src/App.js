@@ -16,21 +16,22 @@ function App() {
   return (
     <>
       <div className="bg-black scroll-smooth hover:scroll-auto ">
-        <div className="backgroundImghead">
+        <div className="backgroundImghead bg-black">
           <Navbar />
           <Home />
         </div>
 
-        <div className="  ">
+  
+        
+      </div>
+      <div className=" bg-black">
           <ImpTech />
-          <CardWithMan />
+          {/* <CardWithMan /> */}
         </div>
         <WeAre/>
         <TechWithWork/>
         <LoginPage/>
         <Footer/>
-        
-      </div>
     </>
   );
 }
