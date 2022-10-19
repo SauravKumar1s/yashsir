@@ -21,7 +21,7 @@ function App() {
           <Home />
         </div>
       </div>
-      <div className=" bg-black scroll-smooth hover:scroll-auto">
+      <div className="font-link bg-black scroll-smooth hover:scroll-auto">
         <ImpTech /> 
         <WeAre />
         <CardWithMan />

@@ -10,7 +10,7 @@ import "../css/navbar.css";
 const Navbar = () => {
   return (
     <header className="-z-50 border-b-2 border-white border-opacity-25  text-white shadow-lg hidden md:block">
-      <div className="container mx-auto flex items-center h-24">
+      <div className="container mx-auto flex items-center h-24 font-link">
         <a href="" className="flex items-center justify-center">
           <span className="ml-4 uppercase font-black">Javvry</span>
         </a>
