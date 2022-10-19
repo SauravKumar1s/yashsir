@@ -20,18 +20,16 @@ function App() {
           <Navbar />
           <Home />
         </div>
-
-  
-        
       </div>
-      <div className=" bg-black">
-          <ImpTech />
-          {/* <CardWithMan /> */}
-        </div>
-        <WeAre/>
-        <TechWithWork/>
-        <LoginPage/>
-        <Footer/>
+      <div className=" bg-black scroll-smooth hover:scroll-auto">
+        <ImpTech /> 
+        <WeAre />
+        <CardWithMan />
+      </div>
+
+      <TechWithWork />
+      <LoginPage />
+      <Footer />
     </>
   );
 }

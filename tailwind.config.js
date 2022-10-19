@@ -7,7 +7,9 @@ module.exports = {
     extend: {
       colors: {
         headerClr: '#1E1E1E',
-        gradiabtClr : '#124140'
+        gradiabtClr : '#124140',
+        cardClr: '#0EC5FF',
+        futureClr:'#008B8B'
       }
     },
   },

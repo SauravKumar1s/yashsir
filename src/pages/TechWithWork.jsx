@@ -6,7 +6,7 @@ import vive from "../img/vive6.png";
 
 const TechWithWork = () => {
   return (
-    <div className="background">
+    <div className="flex justify-center flex-col background h-screen">
       <div>
         <h1 className="text-4xl text-bold text-white text-center font-bold  mb-12 pt-12">
           Technologies we work with
@@ -14,7 +14,7 @@ const TechWithWork = () => {
       </div>
 
       <div>
-        <div className="flex justify-center space-x-20 mb-12 ">
+        <div className="flex justify-center items-center space-x-20 mb-12 ">
           <div>
             <img src={unity} alt="" />
           </div>

@@ -4,7 +4,7 @@ import arylogin from "../img/arylogin.png";
 export const LoginPage = () => {
   return (
     <div className="background">
-      <div className="w-full h-42  bg-blue-400 p-6 rounded-lg shadow-lg justify-center ">
+      <div className="w-full h-42 followbg p-6 rounded-lg shadow-lg justify-center ">
         <h2 className="text-2xl font-bold mb-2 text-center text-white">
           lorem 42
         </h2>
@@ -20,8 +20,8 @@ export const LoginPage = () => {
           <div className="grow-0 shrink-1 md:shrink-0 basis-auto xl:w-2/4 lg:w-2/4 md:w-9/12 mb-12 md:mb-0">
             <img src={arylogin} className="" alt="Sample image" />
           </div>
-          <section className="background w-2/4 rounded-5xl">
-            <div className="background flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
+          <section className="backgroundLogin w-2/4 rounded-5xl">
+            <div className="backgroundLogin flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
               <div className="w-full  rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0">
                 <div className=" p-6 space-y-4 md:space-y-6  sm:p-8">
                   <h1 className="text-3xl text-center font-bold leading-tight tracking-tight text-blue-800 md:text-2xl dark:text-white">

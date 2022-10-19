@@ -13,7 +13,7 @@ const ImpTech = () => {
         className="backgroundImg border-b-2 border-gray-700 shadow-lg"
         
       >
-        <div className="flex justify-center space-x-4 md:flex  pt-9">
+        <div className="flex justify-around space-x-4 md:flex  pt-9">
           <div className="">
             <div className="max-w-7xl mx-auto">
               <div className="relative group">
@@ -129,7 +129,7 @@ const ImpTech = () => {
               <img className="mymove" src={supergirl} />
             </div>
           </div>
-          <CardWithMan/>
+          {/* <CardWithMan/> */}
         </div>
       </div>
     </>
