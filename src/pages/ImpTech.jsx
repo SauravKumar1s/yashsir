@@ -105,7 +105,7 @@ const ImpTech = () => {
           <div className=" flex justify-around pb-10 pt-10">
             <div className="w-2/4 justify-center text-center m-auto flex-col">
               <h1 className="text-white text-5xl h1tag">
-                <span className="text-blue-600">Immersive</span> <br></br>{" "}
+                <span className="font-link text-cardClr">Immersive</span> <br></br>{" "}
                 Technology
               </h1>
               <h2 className="text-white justify-center text-start mb-10 mt-4 ml-12">

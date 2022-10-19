@@ -17,8 +17,8 @@ const CardWithMan = () => {
             <img className="z-50" src={vrgirl} alt="" />
           </div>
 
-          <div className="backgroundClr relative right-12 w-2/4 bg-gray-700 p-6 rounded-lg shadow-lg h-72 justify-center backdrop-brightness-50 bg-white/30">
-            <h2 className="text-2xl font-bold mb-2 text-white">lorem 42</h2>
+          <div className="backgroundClr text- relative right-12 w-2/4 bg-gray-700 p-6 rounded-lg shadow-lg h-72 justify-center backdrop-brightness-50 bg-white/30">
+            <h2 className="text-2xl font-bold mb-2 text-cardTextClr text-center">Lorem ipsum dolor sit amet consectetur.</h2>
             <p className="text-white">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
               nobis numquam consequuntur, provident ab, praesentium est dolore
@@ -33,7 +33,7 @@ const CardWithMan = () => {
             className="backgroundClr left-12 relative w-2/4  p-6 rounded-lg shadow-lg h-72 justify-center "
           
           >
-            <h2 className="text-2xl font-bold mb-2 text-white">lorem 42</h2>
+            <h2 className="text-2xl font-bold mb-2 text-center text-cardTextClr">Lorem ipsum dolor sit amet consectetur.</h2>
             <p className="text-white">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
               nobis numquam consequuntur, provident ab, praesentium est dolore
@@ -55,7 +55,7 @@ const CardWithMan = () => {
           </div>
 
           <div className="backgroundClr relative right-12 backgroundMan w-2/4  bg-gray-700 p-6 rounded-lg shadow-lg h-72 justify-center items-start">
-            <h2 className="text-2xl font-bold mb-2 text-white">lorem 42</h2>
+            <h2 className="text-2xl font-bold mb-2 text-center text-cardTextClr">Lorem ipsum dolor sit amet consectetur.</h2>
             <p className="text-white">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
               nobis numquam consequuntur, provident ab, praesentium est dolore

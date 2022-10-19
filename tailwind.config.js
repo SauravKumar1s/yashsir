@@ -9,7 +9,9 @@ module.exports = {
         headerClr: '#1E1E1E',
         gradiabtClr : '#124140',
         cardClr: '#0EC5FF',
-        futureClr:'#008B8B'
+        
+        futureClr:'#008B8B',
+        cardTextClr:'#00C2FF'
       }
     },
   },

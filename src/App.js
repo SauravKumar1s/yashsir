@@ -15,21 +15,21 @@ import Footer from "./pages/Footer";
 function App() {
   return (
     <>
-      <div className="bg-black scroll-smooth hover:scroll-auto ">
+      <div className="bg-black scroll-smootho ">
         <div className="backgroundImghead bg-black">
           <Navbar />
           <Home />
         </div>
       </div>
-      <div className="font-link bg-black scroll-smooth hover:scroll-auto">
+      <div className="font-link bg-black scroll-smooth">
         <ImpTech /> 
         <WeAre />
-        <CardWithMan />
-      </div>
-
-      <TechWithWork />
-      <LoginPage />
-      <Footer />
+        <CardWithMan /> <TechWithWork />
+     
+     
+      </div> <LoginPage />
+ <Footer />
+     
     </>
   );
 }
