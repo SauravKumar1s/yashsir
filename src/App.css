@@ -1,3 +1,9 @@
+body , html{
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+}
 .backgroundImg{
   background: url(img/BgParticlesLower.svg) no-repeat  ; 
   /* -webkit-background-size: cover;
@@ -44,6 +50,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
 
 }
 .followbg{

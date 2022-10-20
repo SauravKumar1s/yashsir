@@ -1,28 +1,30 @@
 .background {
   background: radial-gradient(circle, rgb(14, 33, 31) 0%, rgba(0,0,0,1) 100%);
 }
+.widhtt{
+  width: 45%;
+}
  .h1tag {
-    display:inline-block;
+    text-align: center;
+    /* display:inline-block;
     overflow:hidden;
-    white-space:nowrap;
+    white-space:nowrap; */
+    /* margin-left: 30px; */
   }
   
-  .h1tag:first-of-type {    /* For increasing performance 
-                         ID/Class should've been used. 
-                         For a small demo 
-                         it's okaish for now */
-    animation: showup 7s infinite;
+  .h1tag:first-of-type {   
+    animation: showup 3s infinite;
   }
   
   .h1tag:last-of-type {
     width:0px;
-    animation: reveal 7s infinite;
+    animation: reveal 3s infinite;
     padding: 10px;
   }
   
   .h1tag:last-of-type span {
-    margin-left:-355px;
-    animation: slidein 7s infinite;
+    margin-left:-305px;
+    animation: slidein 3s infinite;
   }
   
   @keyframes showup {

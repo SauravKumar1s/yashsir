@@ -5,12 +5,14 @@ import image1 from "../img/image1.svg";
 
 const Home = () => {
   return (
-    <section className=" bg- ">
-        <div className="flex justify-center">
+   <section className="w-screen">
+      <div className="flex justify-center">
           <img src={image1} className="" />
         </div>
+   </section>
+      
         
-      </section>
+  
   );
 };
 

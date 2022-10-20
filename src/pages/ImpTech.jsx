@@ -5,15 +5,11 @@ import "../css/imptech.css";
 import "../css/cardwithman.css";
 import CardWithMan from "./CardWithMan";
 
-
 const ImpTech = () => {
   return (
     <>
-      <div
-        className="backgroundImg border-b-2 border-gray-700 shadow-lg"
-        
-      >
-        <div className="flex justify-around space-x-4 md:flex  pt-9">
+      <div className="backgroundImg border-b-2 border-gray-700 shadow-lg">
+        <div className=" flex flex-col sm:flex sm:flex-row justify-around  md:flex  pt-9">
           <div className="">
             <div className="max-w-7xl mx-auto">
               <div className="relative group">
@@ -71,8 +67,7 @@ const ImpTech = () => {
               </div>
             </div>
           </div>
-
-          <div className=" ">
+          <div className="">
             <div className="max-w-7xl mx-auto">
               <div className="relative group">
                 <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
@@ -100,15 +95,19 @@ const ImpTech = () => {
               </div>
             </div>
           </div>
+
+          
+           
         </div>
         <div className="backgroundImg2 bg-black">
           <div className=" flex justify-around pb-10 pt-10">
-            <div className="w-2/4 justify-center text-center m-auto flex-col">
-              <h1 className="text-white text-5xl h1tag">
-                <span className="font-link text-cardClr">Immersive</span> <br></br>{" "}
-                Technology
+            <div className="widhtt sm:ml-10 ml-4 sm:justify-start justify-center m-auto flex-col ">
+              <h1 className="text-white sm:text-5xl text-3xl mr-8 mb-8 z-20 h1tag ">
+                <span className="font-link text-cardClr">Immersive</span>{" "}
+                <br></br> Technology
               </h1>
-              <h2 className="text-white justify-center text-start mb-10 mt-4 ml-12">
+              <div className="">
+              <h2 className="text-white sm:justify-center  sm:text-base text-xs text-start mt-4 ">
                 The immersive experience can Thrill you, Educate you, Train you,
                 and can make you imagine the world without any limits. It feels
                 exceptional when you touch the limits with your Virtual Reality
@@ -116,17 +115,20 @@ const ImpTech = () => {
                 Studio believes in freedom which can be achieved with Virtual
                 Reality technology, for every people in this world just like you
                 and me.
-              </h2>
-              <button
-                type="button"
-                className="p-2 w-36  bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-2xl text-white"
-              >
-                Contact us
-              </button>
+              </h2></div>
+              <div className="">
+                <button
+                  type="button"
+                  className="p-2 w-36  sm:mt-8 mt-8 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-2xl text-white"
+                >
+                  Contact us
+                </button>
+              </div>
             </div>
 
-            <div className="flex w-2/4 ">
-              <img className="mymove" src={supergirl} />
+            <div className="w-1/2 sm:top-0 relative top-56 ">
+            <img className=" " src={supergirl} />
+
             </div>
           </div>
           {/* <CardWithMan/> */}

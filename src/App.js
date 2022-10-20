@@ -10,26 +10,26 @@ import ImpTech from "./pages/ImpTech";
 import CardWithMan from "./pages/CardWithMan";
 import TechWithWork from "./pages/TechWithWork";
 import { LoginPage } from "./pages/LoginPage";
-import Footer from "./pages/Footer";
+import Footerr from "./pages/Footerr";
+// import Footer from "./pages/Footer";
 
 function App() {
   return (
     <>
-      <div className="bg-black scroll-smootho ">
+      <div className="bg-black scroll-smooth">
         <div className="backgroundImghead bg-black">
           <Navbar />
           <Home />
         </div>
       </div>
       <div className="font-link bg-black scroll-smooth">
-        <ImpTech /> 
+        <ImpTech />
         <WeAre />
         <CardWithMan /> <TechWithWork />
-     
-     
-      </div> <LoginPage />
- <Footer />
-     
+      </div>{" "}
+      <LoginPage />
+      <Footerr />
+      {/* <Footer /> */}
     </>
   );
 }

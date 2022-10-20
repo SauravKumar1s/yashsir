@@ -14,7 +14,7 @@ const TechWithWork = () => {
       </div>
 
       <div>
-        <div className="flex justify-center items-center space-x-20 mb-12 ">
+        <div className="h-4 flex justify-center items-center sm:space-x-20 space-x-2 mb-12 ">
           <div>
             <img src={unity} alt="" />
           </div>
@@ -28,7 +28,7 @@ const TechWithWork = () => {
             <img src={unity} alt="" />
           </div>
         </div>
-        <div className="flex justify-center items-center space-x-8 mb-12">
+        <div className="flex justify-center items-center sm:space-x-8 space-x-2  mb-12">
           <div>
             <img src={android} alt="" />
           </div>
@@ -42,7 +42,7 @@ const TechWithWork = () => {
             <img src={unity} alt="" />
           </div>
         </div>
-        <div className="flex justify-center space-x-20">
+        <div className="flex justify-center sm:space-x-20 space-x-2">
           <div>
             <img src={unity} alt="" />
           </div>

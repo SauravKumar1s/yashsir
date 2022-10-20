@@ -15,14 +15,14 @@
     65%  { transform: translate(0, 15px); }
     to   { transform: translate(0, -0px); }    
 }
-.mymove{
+/* .mymove{
   position: relative;
   animation-iteration-count: infinite;
 animation-timing-function: ease-in-out;
   animation-name: mymove;
   animation-duration: 3s;
-}
-@keyframes mymove {
+} */
+/* @keyframes mymove {
   from {right: 0px;}
   to {right: 90px;}
-}
+} */
