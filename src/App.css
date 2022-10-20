@@ -19,7 +19,8 @@ body , html{
 
 }
 .backgroundClr{
-  background-color: rgba(14, 197, 255, 0.08);
+  background: rgba(1, 38, 54, 0.58);
+  
   backdrop-filter: blur(1.5px);
   border-radius: 30px;
 

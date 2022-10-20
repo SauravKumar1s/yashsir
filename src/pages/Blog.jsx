@@ -5,15 +5,15 @@ const Blog = () => {
     <>
       <div className="background h-full pb-10 items-center flex flex-col justify-center">
         <div className="bg-background">
-          <h1 className="text-3xl font-bold text-white text-center pt-6">
+          <h1 className="text-3xl font-bold text-white text-center pt-6 ">
             {" "}
             Blog{" "}
           </h1>
         </div>
-        <div className=" row lg:flex m-10 md:flex md:row  sm:row sm:flex background ">
-          <div className="gradiantClr max-w-xl rounded-lg shadow-md lg:flex md:flex ">
+        <div className="xl:flex xl:flex-row md:gap-14 flex flex-col lg:flex m-10 md:flex md:col  lg:row sm:flex background ">
+          <div className="gradiantClr max-w-xl rounded-lg shadow-md lg:flex md:flex ml-4  ">
             <img
-              className=" object-cover w-full md:w-1/2 lg:w-1/3"
+              className="rounded-lg object-cover w-full md:w-1/2 lg:w-1/3"
               src="https://cdn.pixabay.com/photo/2016/12/19/18/21/snowflake-1918794__340.jpg"
               alt="image"
             />
@@ -42,9 +42,9 @@ const Blog = () => {
             </div>
           </div>
 
-          <div className="gradiantClr max-w-xl rounded-lg shadow-md lg:flex md:flex ">
+          <div className="gradiantClr max-w-xl rounded-lg shadow-md lg:flex md:flex ml-4">
             <img
-              className=" object-cover w-full md:w-1/2 lg:w-1/3"
+              className="rounded-lg object-cover w-full md:w-1/2 lg:w-1/3"
               src="https://cdn.pixabay.com/photo/2016/12/19/18/21/snowflake-1918794__340.jpg"
               alt="image"
             />
@@ -73,9 +73,9 @@ const Blog = () => {
             </div>
           </div>
 
-          <div className="gradiantClr max-w-xl rounded-lg shadow-md lg:flex md:flex ">
+          <div className="gradiantClr max-w-xl rounded-lg shadow-md lg:flex md:flex ml-4">
             <img
-              className=" object-cover w-full md:w-1/2 lg:w-1/3"
+              className="rounded-lg object-cover w-full md:w-1/2 lg:w-1/3"
               src="https://cdn.pixabay.com/photo/2016/12/19/18/21/snowflake-1918794__340.jpg"
               alt="image"
             />
