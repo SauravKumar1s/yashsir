@@ -26,6 +26,7 @@ function App() {
         <ImpTech />
         <WeAre />
         <CardWithMan /> <TechWithWork />
+        <Blog/>
       </div>{" "}
       <LoginPage />
       <Footerr />
