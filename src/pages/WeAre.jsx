@@ -9,7 +9,7 @@ const WeAre = () => {
         className="bg-black 
       "
       >
-        {/* <img className="w-full" src={rect} /> */}
+        <img className="w-full" src={rect} />
         {/* <h1 className="text-white relative">Hi this is animation section</h1> */}
       </div>
       <div className="background flex justify-center">
@@ -19,7 +19,7 @@ const WeAre = () => {
         className="bg-black w-full
       "
       >
-        {/* <img className="w-full" src={rect} /> */}
+        <img className="w-full" src={rect} />
         {/* <h1 className="text-white relative">Hi this is animation section</h1> */}
       </div>
     </>

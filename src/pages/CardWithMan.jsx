@@ -3,6 +3,7 @@ import vrgirl from "../img/vrgirl1png.png";
 import vrman from "../img/man1.png";
 import vrguy from "../img/vrguy.png";
 import "../css/cardwithman.css";
+import TechWithWork from "./TechWithWork";
 
 const CardWithMan = () => {
   return (
@@ -10,12 +11,12 @@ const CardWithMan = () => {
       {" "}
       {/* 1 */}
       <div className="backgroundImg22">
-      <div
-          className=" backgroundImg2  border-gray-700  z-50 flex justify-center items-center bg-black"
+        <div
+          className=" backgroundImg2 border-gray-700  z-50 flex justify-center sm:items-end items-center bg-black sm:mb-0 mb-16 sm:mt-0 mt-16"
           data-aos="fade-up-right"
           data-aos-duration="1000"
         >
-          <div className="mymovee sm:left-12  relative z-50">
+          <div className="mymovee sm:left-12 relative z-50 sm:w-fit ">
             <img className="" src={vrgirl} alt="" />
           </div>
 
@@ -32,7 +33,7 @@ const CardWithMan = () => {
         </div>
         {/* 2 */}
         <div
-          className="backgroundImg2 flex justify-center sm:items-end items-center bg-black"
+          className="backgroundImg2  flex justify-center sm:items-end items-center bg-black sm:mb-0 mb-16"
           data-aos="fade-up-left"
           data-aos-duration="1000"
         >
@@ -52,7 +53,7 @@ const CardWithMan = () => {
         </div>
         {/* 3 */}
         <div
-          className=" backgroundImg2  border-gray-700  z-50 flex justify-center items-center bg-black"
+          className=" backgroundImg2  border-gray-700  z-50 flex justify-center items-center bg-black sm:mb-0 mb-16"
           data-aos="fade-up-right"
           data-aos-duration="1000"
         >
@@ -71,6 +72,7 @@ const CardWithMan = () => {
             </p>
           </div>
         </div>
+        <TechWithWork />
       </div>
     </>
   );

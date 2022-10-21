@@ -6,7 +6,7 @@ export const LoginPage = () => {
     <>
       <div className="background">
         <div class="p-4 w-full backgroundClr text-center rounded-lg sm:p-8 ">
-          <h5 class="font-link  text-3xl font-bold text-white mb-4 ">
+          <h5 class="font-link  sm:text-3xl text-xl font-bold text-white mb-4 ">
             Follow Us On
           </h5>
           

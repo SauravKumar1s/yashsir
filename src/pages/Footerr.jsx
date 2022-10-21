@@ -14,8 +14,9 @@ const Footerr = () => {
             </div>
             <div>
               <h1 className="text-3xl text-white mr-4 mb-8">
-                Let’s create a <br /> FUTURE together
+                Let’s create a <br /> <span className="text-futureClr">FUTURE</span>  together
               </h1>
+              <h1 className="text-gray-500 text-xs">Janvry is a top notch Deep tech development company that converges technologies like Blockchain, AI, AR/VR solutions for enterprises.</h1>
             </div>
             <div>
               <p className="font-medium tracking-wide text-white">Company</p>

@@ -6,14 +6,12 @@ body , html{
 }
 .backgroundImg{
   background: url(img/BgParticlesLower.svg) no-repeat  ; 
-
   background-size: cover;
   z-index: 100;
   scroll-behavior: smooth;
 }
 .backgroundImg2{
   background: url(img/BgParticlesLower.svg) no-repeat  ; 
-
   z-index: 100;
   scroll-behavior: smooth;
 
@@ -32,7 +30,8 @@ body , html{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  z-index: 100;
+  scale: 100%;
+  /* z-index: 100; */
   scroll-behavior: smooth;
 
 }

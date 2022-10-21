@@ -6,9 +6,9 @@ import vive from "../img/vive6.png";
 
 const TechWithWork = () => {
   return (
-    <div className="flex justify-center flex-col background h-screen">
+    <div className=" flex justify-center flex-col  h-screen">
       <div>
-        <h1 className="text-4xl text-bold text-white text-center font-bold  mb-44 pt-12">
+        <h1 className="sm:text-4xl text-xl text-bold text-white text-center font-bold  sm:mb-24 sm:mt-0 sm:pb: pb-24">
           Technologies we work with
         </h1>
       </div>
@@ -16,49 +16,49 @@ const TechWithWork = () => {
       <div>
         <div className="h-4 flex justify-center items-center sm:space-x-20 space-x-2 mb-12 ">
           <div>
-            <img className="w-24 sm:w-fit" src={unity} alt="" />
+            <img className="w-16  sm:w-fit" src={unity} alt="" />
           </div>
           <div>
-            <img className="w-24 sm:w-fit" src={unreal} alt="" />
+            <img className="w-16  sm:w-fit" src={unreal} alt="" />
           </div>
           <div>
-            <img className="w-24 sm:w-fit" src={unreal} alt="" />
+            <img className="w-16  sm:w-fit" src={unreal} alt="" />
           </div>
           <div>
-            <img className="w-24 sm:w-fit" src={unity} alt="" />
+            <img className="w-16  sm:w-fit" src={unity} alt="" />
           </div>
         </div>
         <div className="flex justify-center items-center sm:space-x-8 space-x-2  mb-12">
           <div>
-            <img className="w-24 sm:w-fit" src={android} alt="" />
+            <img className="w-8  sm:w-fit" src={android} alt="" />
           </div>
           <div>
-            <img className="w-24 sm:w-fit" src={vive} alt="" />
+            <img className="w-16  sm:w-fit" src={vive} alt="" />
           </div>
           <div>
-            <img className="w-24 sm:w-fit" src={unity} alt="" />
+            <img className="w-16  sm:w-fit" src={unity} alt="" />
           </div>
           <div>
-            <img className="w-24 sm:w-fit" src={unity} alt="" />
+            <img className="w-16  sm:w-fit" src={unity} alt="" />
           </div>
         </div>
         <div className="flex justify-center sm:space-x-20 space-x-2">
           <div>
-            <img className="w-24 sm:w-fit" src={unity} alt="" />
+            <img className="w-16  sm:w-fit" src={unity} alt="" />
           </div>
           <div>
-            <img className="w-24 sm:w-fit" src={unity} alt="" />
+            <img className="w-16  sm:w-fit" src={unity} alt="" />
           </div>
           <div>
-            <img className="w-24 sm:w-fit" src={unity} alt="" />
+            <img className="w-16  sm:w-fit" src={unity} alt="" />
           </div>
           <div>
-            <img className="w-24 sm:w-fit" src={unity} alt="" />
+            <img className="w-16 sm:w-fit" src={unity} alt="" />
           </div>
         </div>
       </div>
       <div>
-        <h1 className="text-3xl text-bold text-white text-center mt-44">
+        <h1 className="sm:text-3xl text-xl text-bold text-white text-center sm:mt-24 mt-16">
           And More
         </h1>
       </div>
