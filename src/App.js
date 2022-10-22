@@ -33,15 +33,15 @@ function App() {
       {/* <Footer /> */}
       <div className="backgroundImg scroll-smooth">
         <div className="bg-black">
-          <Team/>
+          {/* <Team/> */}
           {/* <ContactUs/> */}
       
         </div>
       </div>
-      <div className="backgroundImgAbout scroll-smooth">
+      <div className="backgroundImg scroll-smooth">
         <div className="bg-black">
- {/* <Navbar/>
-          <AboutUs/> */}
+ 
+          <AboutUs/>
         </div>
       </div>
       
