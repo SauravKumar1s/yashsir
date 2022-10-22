@@ -35,6 +35,16 @@ body , html{
   scroll-behavior: smooth;
 
 }
+.backgroundImgTeam{
+  background: url(img/BgParticlesLower.svg) no-repeat  ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* scale: 100%; */
+  scroll-behavior: smooth;
+
+}
 
 
 .backgroundImghead{
@@ -47,6 +57,17 @@ body , html{
 
 
 }
+.backgroundImgAbout{
+  background: url(img/backPart.svg)   ;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+}
+
 .followbg{
   background: rgba(1, 38, 54, 0.58);
   backdrop-filter: blur(6px);
@@ -61,3 +82,30 @@ border-radius: 30px;
   background: linear-gradient(90deg, #000000 25.83%, #013546 112.4%);
   mix-blend-mode: normal;
 }
+
+.box {
+  padding: 1rem;
+  max-height: 220px;
+  overflow-y: auto;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #5433FF;
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5433FF;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+  
+}
+

@@ -6,7 +6,7 @@ import vive from "../img/vive6.png";
 
 const TechWithWork = () => {
   return (
-    <div className=" flex justify-center flex-col  h-screen">
+    <div className="flex justify-center flex-col h-screen">
       <div>
         <h1 className="sm:text-4xl text-xl text-bold text-white text-center font-bold  sm:mb-24 sm:mt-0 sm:pb: pb-24">
           Technologies we work with
@@ -63,7 +63,6 @@ const TechWithWork = () => {
         </h1>
       </div>
     </div>
-    
   );
 };
 

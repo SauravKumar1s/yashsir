@@ -4,38 +4,40 @@ import logo from "../img/LogoR.png";
 
 import "../css/navbar.css";
 
+const data = [{id: 0, label: "Istanbul, TR (AHL)"}, {id: 1, label: "Paris, FR (CDG)"}];
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-    const [dropdownOpen, setdropdownOpen] = useState(false);
-    const handleClick = () => {
-      console.log("yes click");
-      setdropdownOpen(!dropdownOpen)
-    }
+  const [issOpen, setOpen] = useState(false);
+  const [items, setItem] = useState(data);
+  const [selectedItem, setSelectedItem] = useState(null);
+
+  const toggleDropdown = () => setOpen(!isOpen);
+
+  const handleItemClick = (id) => {
+    selectedItem == id ? setSelectedItem(null) : setSelectedItem(id);
+  };
+
   return (
     <>
-    <header className="z-50 lg:h-24 sm:fixed w-full  top-0 backdrop-blur-sm bg-white/5  text-white shadow-lg  font-link">
-      <nav class=" border-gray-200 px-2 py-2  rounded dark:bg-gray-900">
-        <div class="container flex flex-wrap justify-between items-center mx-auto">
-          <a href="/" class="flex items-center">
-            <img
-              src={logo}
-              class="mr-3 sm:h-22 h-10 "
-              alt="Flowbite Logo"
-            />
+      <header className="z-50 lg:h-24 sm:fixed w-full  top-0 backdrop-blur-sm bg-white/5  text-white shadow-lg  font-link">
+        <nav class=" border-gray-200 px-2 py-2  rounded dark:bg-gray-900">
+          <div class="container flex flex-wrap justify-between items-center mx-auto">
+            <a href="/" class="flex items-center">
+              <img src={logo} class="mr-3 sm:h-22 h-10 " alt="Flowbite Logo" />
+            </a>
+            <div class="flex md:order-2">
+              <button
+                onClick={() => setIsOpen(!isOpen)}
+                data-collapse-toggle="navbar-cta"
+                type="button"
+                class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-cta"
+                aria-expanded="false"
+              >
+                <span class="sr-only">Open main menu</span>
 
-          </a>
-          <div class="flex md:order-2">
-            <button
-            onClick={() => setIsOpen(!isOpen)}
-              data-collapse-toggle="navbar-cta"
-              type="button"
-              class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-              aria-controls="navbar-cta"
-              aria-expanded="false"
-            >
-              <span class="sr-only">Open main menu</span>
-              
-              {!isOpen ? (
+                {!isOpen ? (
                   <svg
                     className="block h-6 w-6"
                     xmlns="http://www.w3.org/2000/svg"
@@ -68,141 +70,124 @@ const Navbar = () => {
                     />
                   </svg>
                 )}
-            </button>
-          </div>
-         
-          <div
-            class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1 "
-          >
-            <nav className="contents font-semibold text-base lg:text-lg">
-          <ul className="mx-auto flex items-center ">
-            <li className="p-5 xl:p-8 active">
-              <a href="">
-                <span>Home</span>
-              </a>
-            </li>
-            <li className="p-5 xl:p-8">
-              <a href="">
-                <span>About</span>
-              </a>
-            </li>
-            <li>
-            <button onClick={handleClick} id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="xl:p-8 flex justify-between items-center py-2 pr-4 pl-3 w-full font-medium text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent ">Dropdown <svg class="ml-1 w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
-            {/* <!-- Dropdown menu --> */}
-            <div id="dropdownNavbar" class="hidden z-10 w-44 font-normal bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600">
-                <ul class="py-1 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
-                  <li>
-                    <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+              </button>
+            </div>
+
+            <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1 ">
+              <nav className="contents font-semibold text-base lg:text-lg">
+                <ul className="mx-auto flex items-center ">
+                  <li className="p-5 xl:p-8 active">
+                    <a href="">
+                      <span>Home</span>
+                    </a>
                   </li>
-                  <li>
-                    <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+                  <li className="p-5 xl:p-8">
+                    <a href="">
+                      <span>About</span>
+                    </a>
                   </li>
-                  <li>
-                    <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+               <li>
+                
+               </li>
+
+                  <li className="p-5 xl:p-8">
+                    <a href="">
+                      <span>Projects</span>
+                    </a>
+                  </li>
+                  <li className="p-5 xl:p-8">
+                    <a href="">
+                      <span>Services</span>
+                    </a>
+                  </li>
+                  <li className="p-5 xl:p-8">
+                    <a href="">
+                      <span>Blog</span>
+                    </a>
                   </li>
                 </ul>
-                <div class="py-1">
-                  <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Sign out</a>
-                </div>
+              </nav>
             </div>
-        </li>
-            
-            <li className="p-5 xl:p-8">
-              <a href="">
-                <span>Projects</span>
-              </a>
-            </li>
-            <li className="p-5 xl:p-8">
-              <a href="">
-                <span>Services</span>
-              </a>
-            </li>
-            <li className="p-5 xl:p-8">
-              <a href="">
-                <span>Blog</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
           </div>
-        </div>
-      </nav>
-     
-    </header>
-    <Transition
-          show={isOpen}
-          enter="transition ease-out duration-100 transform"
-          enterFrom="opacity-0 scale-95"
-          enterTo="opacity-100 scale-100"
-          leave="transition ease-in duration-75 transform"
-          leaveFrom="opacity-100 scale-100"
-          leaveTo="opacity-0 scale-95"
-        >
-          {(ref) => (
-            <div className="md:hidden fixed w-full text-center h-full " id="mobile-menu">
-              <div ref={ref} className="px-2 pt-2 pb-10 space-y-6 sm:px-3 z-50 gradiantClr">
-                <a
-                  href="#"
-                  className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Dashboard
-                </a>
+        </nav>
+      </header>
+      <Transition
+        show={isOpen}
+        enter="transition ease-out duration-100 transform"
+        enterFrom="opacity-0 scale-95"
+        enterTo="opacity-100 scale-100"
+        leave="transition ease-in duration-75 transform"
+        leaveFrom="opacity-100 scale-100"
+        leaveTo="opacity-0 scale-95"
+      >
+        {(ref) => (
+          <div
+            className="md:hidden fixed w-full text-center h-full "
+            id="mobile-menu"
+          >
+            <div
+              ref={ref}
+              className="px-2 pt-2 pb-10 space-y-6 sm:px-3 z-50 gradiantClr"
+            >
+              <a
+                href="#"
+                className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Dashboard
+              </a>
 
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Team
-                </a>
+              <a
+                href="#"
+                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Team
+              </a>
 
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Projects
-                </a>
-                
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Projects
-                </a>
-                
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Projects
-                </a>
-                
+              <a
+                href="#"
+                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Projects
+              </a>
 
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Calendar
-                </a>
+              <a
+                href="#"
+                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Projects
+              </a>
 
-                <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Reports
-                </a>
-                
-                <a
-                  href="#"
-                  className="z-50 text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Reports
-                </a>
+              <a
+                href="#"
+                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Projects
+              </a>
 
-                
-              </div>
+              <a
+                href="#"
+                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Calendar
+              </a>
+
+              <a
+                href="#"
+                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Reports
+              </a>
+
+              <a
+                href="#"
+                className="z-50 text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Reports
+              </a>
             </div>
-          )}
-        </Transition>
+          </div>
+        )}
+      </Transition>
     </>
   );
 };

@@ -7,6 +7,9 @@ import ImpTech from "./pages/ImpTech";
 import CardWithMan from "./pages/CardWithMan";
 import { LoginPage } from "./pages/LoginPage";
 import Footerr from "./pages/Footerr";
+import Team from "./pages/Team";
+import ContactUs from "./pages/ContactUs";
+import AboutUs from "./pages/AboutUs";
 
 
 function App() {
@@ -15,10 +18,10 @@ function App() {
       <div className="bg-black scroll-smooth">
         <div className="backgroundImghead bg-black">
           <Navbar />
-          <Home />
+          {/* <Home /> */}
         </div>
       </div>
-      <div className="font-link bg-black scroll-smooth">
+      {/* <div className="font-link bg-black scroll-smooth">
         <ImpTech />
         <WeAre />
         <CardWithMan />
@@ -26,8 +29,22 @@ function App() {
         <Blog/>
       </div>{" "}
       <LoginPage />
-      <Footerr />
+      <Footerr /> */}
       {/* <Footer /> */}
+      <div className="backgroundImg scroll-smooth">
+        <div className="bg-black">
+          <Team/>
+          {/* <ContactUs/> */}
+      
+        </div>
+      </div>
+      <div className="backgroundImgAbout scroll-smooth">
+        <div className="bg-black">
+ {/* <Navbar/>
+          <AboutUs/> */}
+        </div>
+      </div>
+      
     </>
   );
 }
