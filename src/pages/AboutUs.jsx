@@ -1,6 +1,7 @@
 import React ,{useState , useEffect} from "react";
 import aboutImg from "../img/aboutImg.svg";
 import Footerr from "./Footerr";
+import "../css/about.css"
 
 const AboutUs = () => {
   const [ScrollTop, setScrollTop] = useState(0);
@@ -34,8 +35,8 @@ const AboutUs = () => {
         </div>
 
       </div>
-        <h1 className="text-3xl text-white text-center ">
-          “No one can whistle a symphony. <br />
+        <h1 className="text-3xl text-white text-center gradiantTextColor">
+          “No one can whistle a symphony. 
           It takes a whole orchestra to play it.”
         </h1>
         <h1 className=" text-white text-center pb-12">
@@ -83,12 +84,12 @@ const AboutUs = () => {
             </h1>
           </div>
         </div>
-        <div class="p-4 w-full backgroundClr text-center rounded-lg sm:p-8 mt-14">
-          <h5 class="font-link  sm:text-3xl text-xl font-bold text-white mb-4 ">
+        <div className="p-4 w-full backgroundClr text-center rounded-lg sm:p-8 mt-14">
+          <h5 className="font-link  sm:text-3xl text-xl font-bold text-white mb-4 ">
             Follow Us On
           </h5>
 
-          <div class=" flex justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 ">
+          <div className=" flex justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 ">
             <div className="flex items-center mt-4 space-x-4 sm:mt-0">
               <a
                 href="/"

@@ -1,84 +1,78 @@
-body , html{
+body,
+html {
   width: 100%;
   margin: 0%;
   padding: 0%;
   overflow-x: hidden;
 }
-.backgroundImg{
-  background: url(img/BgParticlesLower.svg) no-repeat  ; 
+.backgroundImg {
+  background: url(img/BgParticlesLower.svg) no-repeat;
   background-size: cover;
   z-index: 100;
   scroll-behavior: smooth;
 }
-.backgroundImg2{
-  background: url(img/BgParticlesLower.svg) no-repeat  ; 
+.backgroundImg2 {
+  background: url(img/BgParticlesLower.svg) no-repeat;
   z-index: 100;
   scroll-behavior: smooth;
-
 }
-.backgroundClr{
+.backgroundClr {
   background: rgba(1, 38, 54, 0.58);
-  
   backdrop-filter: blur(1.5px);
   border-radius: 30px;
-
 }
 
-.backgroundImg22{
-  background: url(img/BgParticlesLower.svg) no-repeat  ; 
+.backgroundImg22 {
+  background: url(img/BgParticlesLower.svg) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   scale: 100%;
-  /* z-index: 100; */
+  z-index: 100;
   scroll-behavior: smooth;
-
 }
-.backgroundImgTeam{
-  background: url(img/BgParticlesLower.svg) no-repeat  ; 
+.backgroundImgTeam {
+  background: url(img/BgParticlesLower.svg) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /* scale: 100%; */
   scroll-behavior: smooth;
-
+}
+.backgroundImgDemo {
+  background: url(img/BgParticlesLower.svg) no-repeat;
+  /* height: 150vmax; */
+  /* background-size: contain; */
+  scroll-behavior: smooth;
+  /* overflow-y: hidden; */
 }
 
-
-.backgroundImghead{
-  background: url(img/BgParticles-12.png)   ;
-
+.backgroundImghead {
+  background: url(img/BgParticles-12.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-
 }
-.backgroundImgAbout{
-  background: url(img/backPart.svg)   ;
-
+.backgroundImgAbout {
+  background: url(img/backPart.svg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-
 }
 
-.followbg{
+.followbg {
   background: rgba(1, 38, 54, 0.58);
   backdrop-filter: blur(6px);
 }
-.backgroundLogin{
-  
-background: rgba(1, 29, 41, 0.49);
-backdrop-filter: blur(2px);
-border-radius: 30px;
+.backgroundLogin {
+  background: rgba(1, 29, 41, 0.49);
+  backdrop-filter: blur(2px);
+  border-radius: 30px;
 }
-.gradiantClr{
+.gradiantClr {
   background: linear-gradient(90deg, #000000 25.83%, #013546 112.4%);
   mix-blend-mode: normal;
 }
@@ -88,8 +82,15 @@ border-radius: 30px;
   max-height: 220px;
   overflow-y: auto;
 }
+.gradiantTextColor  {
+  background: linear-gradient(90deg, #ea00ff 13.77%, rgba(3, 224, 253, 0.615) 50.27%, #ea00ff 77.68%);
+ background-clip: text;
+ -webkit-text-fill-color: transparent;
+
+ }
+
 ::-webkit-scrollbar-thumb {
-  background-color: #5433FF;
+  background-color: #5433ff;
 }
 ::-webkit-scrollbar {
   width: 20px;
@@ -99,27 +100,98 @@ border-radius: 30px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #5433FF;
+  background-color: #5433ff;
   border-radius: 20px;
   border: 6px solid transparent;
   background-clip: content-box;
 }
 ::-webkit-scrollbar-thumb:hover {
   background-color: #a8bbbf;
-  
-}
-.progressMainWrapper{
-  background-color: white;
-  height: 4px;
-  display: inline-block;
-  position: fixed;
-  top: 90px;
-  left: 0;
-  z-index: 50;
-  width: 100%;
-}
-.progressMainStyle {
-  height: 4px;
-  background-color:blue ;
 }
 
+
+.hideMe {
+  -moz-animation: cssAnimation 1s ease-in 1s forwards;
+  /* Firefox */
+  -webkit-animation: cssAnimation 1s ease-in 1s forwards;
+  /* Safari and Chrome */
+  -o-animation: cssAnimation 1s ease-in 1s forwards;
+  /* Opera */
+  animation: cssAnimation 1s ease-in 1s forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  transition: ease-in-out;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.hideMe2 {
+  -moz-animation: cssAnimation 1s ease-in 2s forwards;
+  /* Firefox */
+  -webkit-animation: cssAnimation 1s ease-in 2s forwards;
+  /* Safari and Chrome */
+  -o-animation: cssAnimation 1s ease-in 2s forwards;
+  /* Opera */
+  animation: cssAnimation 1s ease-in 2s forwards;
+  -webkit-animation-fill-mode: forwards;
+  transition: ease-in-out;
+  animation-fill-mode: forwards;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.hideMe3 {
+  
+  -moz-animation: cssAnimation 1s ease-in 3s forwards;
+  /* Firefox */
+  -webkit-animation: cssAnimation 1s ease-in 3s forwards;
+  /* Safari and Chrome */
+  -o-animation: cssAnimation 1s ease-in 3s forwards;
+  /* Opera */
+  animation: cssAnimation 1s ease-in 3s forwards;
+  -webkit-animation-fill-mode: forwards;
+  transition: ease-in-out;
+  animation-fill-mode: forwards;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  
+}
+
+/* @keyframes fadeIn {
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+} */
+@keyframes fade{
+  from{
+    opacity:0.4;
+  }
+  to{
+    opacity:1;
+  }
+}
+@keyframes cssAnimation {
+  to {
+    
+      width:0;
+      height:0;
+      overflow:hidden;
+      animation-name: inherit;
+      animation-duration:1s;
+      display:none;
+      
+  }
+}
+@-webkit-keyframes cssAnimation {
+  to {
+      width:0;
+      height:0;
+      visibility:hidden;
+      overflow:hidden;
+      animation-name: inherit;
+
+      animation-duration:3s;
+      display:none;
+  }
+}

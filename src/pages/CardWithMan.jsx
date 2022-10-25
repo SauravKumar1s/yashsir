@@ -11,7 +11,7 @@ const CardWithMan = () => {
       {" "}
       {/* 1 */}
       <div className="backgroundImg22">
-        <div
+      <div
           className=" backgroundImg2 border-gray-700  z-50 flex justify-center sm:items-end items-center bg-black sm:mb-0 mb-16 sm:mt-0 mt-16"
           data-aos="fade-up-right"
           data-aos-duration="1000"

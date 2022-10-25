@@ -11,19 +11,19 @@ const Team = () => {
           “No one can whistle a symphony. <br />
           It takes a whole orchestra to play it.”
         </h1>
-        <div class=" mx-auto h-80 w-4/5  rounded-lg overflow-hidden ">
-          <div class="flex  items-center justify-around px-6 py-4">
+        <div className=" mx-auto h-80 w-4/5  rounded-lg overflow-hidden ">
+          <div className="flex  items-center justify-around px-6 py-4">
             <img
-              class=" h-24 sm:h-44  rounded-full mx-auto mb-4 sm:mb-0 sm:mr-4 mr-24 sm:ml-0 flex justify-center "
+              className=" h-24 sm:h-44  rounded-full mx-auto mb-4 sm:mb-0 sm:mr-4 mr-24 sm:ml-0 flex justify-center "
               src="https://avatars2.githubusercontent.com/u/4323180?s=400&u=4962a4441fae9fba5f0f86456c6c506a21ffca4f&v=4"
               alt=""
             />
-            <div class="text-center sm:text-left text-white">
-              <div class="mb-4">
-                <p class="sm:text-xl text:sm sm:mb-0 mb-2 leading-tight ">
+            <div className="text-center sm:text-left text-white">
+              <div className="mb-4">
+                <p className="sm:text-xl text:sm sm:mb-0 mb-2 leading-tight ">
                   Adam Wathan
                 </p>
-                <p class="sm:text-sm text-xs leading-tight text-grey-dark">
+                <p className="sm:text-sm text-xs leading-tight text-grey-dark">
                   Developer at NothingWorks Inc.
                 </p>
               </div>
@@ -31,69 +31,34 @@ const Team = () => {
           </div>
         </div>
 
-        <div class=" mx-auto h-80 w-4/5 rounded-lg overflow-hidden ">
-          <div class="sm:flex  sm:items-center justify-around px-6 py-4">
-            <div class="text-center sm:text-left text-white">
-              <div class="mb-4">
-                <p class="text-xl leading-tight">Adam Wathan</p>
-                <p class="text-sm leading-tight text-grey-dark">
+        <div className=" mx-auto h-80 w-4/5 rounded-lg overflow-hidden ">
+          <div className="sm:flex  sm:items-center justify-around px-6 py-4">
+            <div className="text-center sm:text-left text-white">
+              <div className="mb-4">
+                <p className="text-xl leading-tight">Adam Wathan</p>
+                <p className="text-sm leading-tight text-grey-dark">
                   Developer at NothingWorks Inc.
                 </p>
               </div>
             </div>
             <img
-              class=" h-16 sm:h-44  rounded-full mx-auto mb-4 sm:mb-0 sm:mr-4 sm:ml-0 flex justify-center "
+              className=" h-16 sm:h-44  rounded-full mx-auto mb-4 sm:mb-0 sm:mr-4 sm:ml-0 flex justify-center "
               src="https://avatars2.githubusercontent.com/u/4323180?s=400&u=4962a4441fae9fba5f0f86456c6c506a21ffca4f&v=4"
               alt=""
             />
           </div>
         </div>
-        <div class=" mx-auto h-80 w-4/5  rounded-lg overflow-hidden ">
-          <div class="sm:flex  sm:items-center justify-around px-6 py-4">
+        <div className=" mx-auto h-80 w-4/5  rounded-lg overflow-hidden ">
+          <div className="sm:flex  sm:items-center justify-around px-6 py-4">
             <img
-              class=" h-16 sm:h-44  rounded-full mx-auto mb-4 sm:mb-0 sm:mr-4 sm:ml-0 flex justify-center "
+              className=" h-16 sm:h-44  rounded-full mx-auto mb-4 sm:mb-0 sm:mr-4 sm:ml-0 flex justify-center "
               src="https://avatars2.githubusercontent.com/u/4323180?s=400&u=4962a4441fae9fba5f0f86456c6c506a21ffca4f&v=4"
               alt=""
             />
-            <div class="text-center sm:text-left text-white">
-              <div class="mb-4">
-                <p class="text-xl leading-tight">Adam Wathan</p>
-                <p class="text-sm leading-tight text-grey-dark">
-                  Developer at NothingWorks Inc.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class=" mx-auto h-80 w-4/5 rounded-lg overflow-hidden ">
-          <div class="sm:flex  sm:items-center justify-around px-6 py-4">
-            <div class="text-center sm:text-left text-white">
-              <div class="mb-4">
-                <p class="text-xl leading-tight">Adam Wathan</p>
-                <p class="text-sm leading-tight text-grey-dark">
-                  Developer at NothingWorks Inc.
-                </p>
-              </div>
-            </div>
-            <img
-              class=" h-16 sm:h-44  rounded-full mx-auto mb-4 sm:mb-0 sm:mr-4 sm:ml-0 flex justify-center "
-              src="https://avatars2.githubusercontent.com/u/4323180?s=400&u=4962a4441fae9fba5f0f86456c6c506a21ffca4f&v=4"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class=" mx-auto h-80 w-4/5  rounded-lg overflow-hidden ">
-          <div class="sm:flex  sm:items-center justify-around px-6 py-4">
-            <img
-              class=" h-16 sm:h-44  rounded-full mx-auto mb-4 sm:mb-0 sm:mr-4 sm:ml-0 flex justify-center "
-              src="https://avatars2.githubusercontent.com/u/4323180?s=400&u=4962a4441fae9fba5f0f86456c6c506a21ffca4f&v=4"
-              alt=""
-            />
-            <div class="text-center sm:text-left text-white">
-              <div class="mb-4">
-                <p class="text-xl leading-tight">Adam Wathan</p>
-                <p class="text-sm leading-tight text-grey-dark">
+            <div className="text-center sm:text-left text-white">
+              <div className="mb-4">
+                <p className="text-xl leading-tight">Adam Wathan</p>
+                <p className="text-sm leading-tight text-grey-dark">
                   Developer at NothingWorks Inc.
                 </p>
               </div>
@@ -101,18 +66,53 @@ const Team = () => {
           </div>
         </div>
 
-        <div class=" mx-auto h-80 w-4/5 rounded-lg overflow-hidden ">
-          <div class="sm:flex  sm:items-center justify-around px-6 py-4">
-            <div class="text-center sm:text-left text-white">
-              <div class="mb-4">
-                <p class="text-xl leading-tight">Adam Wathan</p>
-                <p class="text-sm leading-tight text-grey-dark">
+        <div className=" mx-auto h-80 w-4/5 rounded-lg overflow-hidden ">
+          <div className="sm:flex  sm:items-center justify-around px-6 py-4">
+            <div className="text-center sm:text-left text-white">
+              <div className="mb-4">
+                <p className="text-xl leading-tight">Adam Wathan</p>
+                <p className="text-sm leading-tight text-grey-dark">
                   Developer at NothingWorks Inc.
                 </p>
               </div>
             </div>
             <img
-              class=" h-16 sm:h-44  rounded-full mx-auto mb-4 sm:mb-0 sm:mr-4 sm:ml-0 flex justify-center "
+              className=" h-16 sm:h-44  rounded-full mx-auto mb-4 sm:mb-0 sm:mr-4 sm:ml-0 flex justify-center "
+              src="https://avatars2.githubusercontent.com/u/4323180?s=400&u=4962a4441fae9fba5f0f86456c6c506a21ffca4f&v=4"
+              alt=""
+            />
+          </div>
+        </div>
+        <div className=" mx-auto h-80 w-4/5  rounded-lg overflow-hidden ">
+          <div className="sm:flex  sm:items-center justify-around px-6 py-4">
+            <img
+              className=" h-16 sm:h-44  rounded-full mx-auto mb-4 sm:mb-0 sm:mr-4 sm:ml-0 flex justify-center "
+              src="https://avatars2.githubusercontent.com/u/4323180?s=400&u=4962a4441fae9fba5f0f86456c6c506a21ffca4f&v=4"
+              alt=""
+            />
+            <div className="text-center sm:text-left text-white">
+              <div className="mb-4">
+                <p className="text-xl leading-tight">Adam Wathan</p>
+                <p className="text-sm leading-tight text-grey-dark">
+                  Developer at NothingWorks Inc.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className=" mx-auto h-80 w-4/5 rounded-lg overflow-hidden ">
+          <div className="sm:flex  sm:items-center justify-around px-6 py-4">
+            <div className="text-center sm:text-left text-white">
+              <div className="mb-4">
+                <p className="text-xl leading-tight">Adam Wathan</p>
+                <p className="text-sm leading-tight text-grey-dark">
+                  Developer at NothingWorks Inc.
+                </p>
+              </div>
+            </div>
+            <img
+              className=" h-16 sm:h-44  rounded-full mx-auto mb-4 sm:mb-0 sm:mr-4 sm:ml-0 flex justify-center "
               src="https://avatars2.githubusercontent.com/u/4323180?s=400&u=4962a4441fae9fba5f0f86456c6c506a21ffca4f&v=4"
               alt=""
             />
@@ -124,12 +124,12 @@ const Team = () => {
           And More
         </h1>
       </div>
-      <div class="p-4 w-full backgroundClr text-center rounded-lg sm:p-8 ">
-          <h5 class="font-link  sm:text-3xl text-xl font-bold text-white mb-4 ">
+      <div className="p-4 w-full backgroundClr text-center rounded-lg sm:p-8 ">
+          <h5 className="font-link  sm:text-3xl text-xl font-bold text-white mb-4 ">
             Follow Us On
           </h5>
 
-          <div class=" flex justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 ">
+          <div className=" flex justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 ">
             <div className="flex items-center mt-4 space-x-4 sm:mt-0">
               <a
                 href="/"

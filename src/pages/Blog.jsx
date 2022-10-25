@@ -1,6 +1,7 @@
 import React from "react";
 
 const Blog = () => {
+  
   return (
     <>
       <div className="bg-black h-full pb-10 items-center flex flex-col justify-center ">

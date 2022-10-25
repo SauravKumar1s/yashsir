@@ -5,12 +5,12 @@ export const LoginPage = () => {
   return (
     <>
       <div className="background">
-      <div class="p-4 w-full backgroundClr text-center rounded-lg sm:p-8 ">
-          <h5 class="font-link  sm:text-3xl text-xl font-bold text-white mb-4 ">
+      <div className="p-4 w-full backgroundClr text-center rounded-lg sm:p-8 ">
+          <h5 className="font-link  sm:text-3xl text-xl font-bold text-white mb-4 ">
             Follow Us On
           </h5>
 
-          <div class=" flex justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 ">
+          <div className=" flex justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 ">
             <div className="flex items-center mt-4 space-x-4 sm:mt-0">
               <a
                 href="/"
@@ -116,7 +116,7 @@ export const LoginPage = () => {
                     />
                   </div>
                   <textarea
-                    class="
+                    className="
         form-control
         block
         w-full

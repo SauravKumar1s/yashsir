@@ -1,0 +1,15 @@
+.progressMainWrapper{
+    background-color: white;
+    height: 4px;
+    display: inline-block;
+    position: fixed;
+    top: 90px;
+    left: 0;
+    z-index: 50;
+    width: 100%;
+  }
+  .progressMainStyle {
+    height: 4px;
+    background: linear-gradient(90deg, #ea00ff 13.77%, rgba(3, 224, 253, 0.615) 50.27%, #ea00ff 77.68%);
+  }
+  

@@ -16,9 +16,7 @@ module.exports = {
     },
   },
   variants: {
-    extend :{
-      display:['group-focus']
-    },
+    display: ['responsive', 'dropdown']
   },
-  plugins: [],
+  plugins: [require('tailwindcss-dropdown')],
 }

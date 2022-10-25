@@ -10,15 +10,32 @@ import Footerr from "./pages/Footerr";
 import Team from "./pages/Team";
 import ContactUs from "./pages/ContactUs";
 import AboutUs from "./pages/AboutUs";
-
+import Services from "./pages/Services";
+import Demos from "./pages/Demos";
+import Carrier from "./pages/Carrier";
+import Blog2 from "./pages/Blog2";
+import OurVision from "./pages/OurVision";
+import ServiceGame from "./pages/ServiceGame";
+import ServiceMeta from "./pages/ServiceMeta";
+import Service3d from "./pages/Service3d";
+import ServiceUi from "./pages/ServiceUi";
+import ProjectCons from "./pages/ProjectCons";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
       <div className="bg-black scroll-smooth">
         <div className="backgroundImghead bg-black">
-          <Navbar />
-          {/* <Home /> */}
+          <BrowserRouter>
+            <Navbar />
+            <Routes>
+              <Route exact path="/" element={<Home />} />
+              <Route exact path="/contact" element={<ContactUs />} />
+              <Route exact path="/blog" element={<Blog2 />} />
+              <Route exact path="/blog" element={<Blog2 />} />
+            </Routes>
+          </BrowserRouter>
         </div>
       </div>
       {/* <div className="font-link bg-black scroll-smooth">
@@ -27,24 +44,34 @@ function App() {
         <CardWithMan />
 
         <Blog/>
-      </div>{" "}
-      <LoginPage />
+      </div>{" "} */}
+      {/* <LoginPage />
       <Footerr /> */}
       {/* <Footer /> */}
-      <div className="backgroundImg scroll-smooth">
+      {/* <div className="backgroundImg scroll-smooth">
         <div className="bg-black">
-          {/* <Team/> */}
-          {/* <ContactUs/> */}
+          <Team/>
+          <ContactUs/>
       
         </div>
-      </div>
+      </div> */}
       <div className="backgroundImg scroll-smooth">
+        <div className="bg-black">{/* <Services/> */}</div>
+      </div>
+      <div className="backgroundImgDemo scroll-smooth">
         <div className="bg-black">
- 
-          <AboutUs/>
+          {/* <Services/>
+          <Demos/>
+          <Carrier/> */}
+          {/* <Blog2/> */}
+          {/* <OurVision/> */}
+          {/* <ServiceGame/> */}
+          {/* <ServiceMeta/> */}
+          {/* <Service3d/> */}
+          {/* <ServiceUi/> */}
+          {/* <ProjectCons /> */}
         </div>
       </div>
-      
     </>
   );
 }
