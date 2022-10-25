@@ -26,9 +26,10 @@ function App() {
   return (
     <>
       <div className="bg-black scroll-smooth">
-        <div className="backgroundImghead bg-black">
+        <div className=" z-50">
           <BrowserRouter>
-            <Navbar />
+          <div className="backgroundImghead">
+            <Navbar /></div>
             <Routes>
               <Route exact path="/" element={<Home />} />
               <Route exact path="/contact" element={<ContactUs />} />

@@ -14,7 +14,7 @@ import WeAre from "./WeAre";
 const Home = () => {
   return (
     <>
-      <div className="pt-24">
+      <div className="">
         <img className="hideMe z-50 absolute" src={home1} />
         <img className="hideMe2 absolute" src={home2} />
       </div>
@@ -24,8 +24,8 @@ const Home = () => {
       <section className="sm:w-screen backgroundImghead">
         <div className="sm:flex justify-center  ">
           {" "}
-          <div></div>
-          <img src={image1} />
+          <div className="pt-24">
+          <img src={image1} /></div>
         </div>
       </section>
       <ImpTech />

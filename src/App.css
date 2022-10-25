@@ -54,6 +54,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  z-index: 1000;
 }
 .backgroundImgAbout {
   background: url(img/backPart.svg);
