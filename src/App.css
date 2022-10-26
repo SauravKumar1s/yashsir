@@ -89,7 +89,9 @@ html {
  -webkit-text-fill-color: transparent;
 
  }
-
+ .background {
+  background: radial-gradient(circle, rgb(28, 66, 62) 0%, rgb(39, 37, 37) 100%);
+}
 ::-webkit-scrollbar-thumb {
   background-color: #5433ff;
 }
@@ -195,4 +197,14 @@ html {
       animation-duration:3s;
       display:none;
   }
+}
+
+.UiBack{
+  width: 370%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: auto;
 }

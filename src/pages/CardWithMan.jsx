@@ -10,11 +10,11 @@ const CardWithMan = () => {
     <>
       {" "}
       {/* 1 */}
-      <div className="backgroundImg22">
+      <div className="backgroundImg2">
       <div
           className=" backgroundImg2 border-gray-700  z-50 flex justify-center sm:items-end items-center bg-black sm:mb-0 mb-16 sm:mt-0 mt-16"
-          data-aos="fade-up-right"
-          data-aos-duration="1000"
+          data-aos="fade-right"
+          data-aos-duration="500"
         >
           <div className="mymovee sm:left-12 relative z-50 sm:w-fit ">
             <img className="" src={vrgirl} alt="" />
@@ -34,8 +34,8 @@ const CardWithMan = () => {
         {/* 2 */}
         <div
           className="backgroundImg2  flex justify-center sm:items-end items-center bg-black sm:mb-0 mb-16"
-          data-aos="fade-up-left"
-          data-aos-duration="1000"
+          data-aos="fade-left"
+          data-aos-duration="500"
         >
           <div className="backgroundClr left-12 sm:relative sm:w-2/4  p-6 rounded-lg shadow-lg h-72 justify-center ">
             <h2 className="sm:text-xl font-bold mb-2 text-center text-cardTextClr">
@@ -54,8 +54,8 @@ const CardWithMan = () => {
         {/* 3 */}
         <div
           className=" backgroundImg2  border-gray-700  z-50 flex justify-center items-center bg-black sm:mb-0 mb-16"
-          data-aos="fade-up-right"
-          data-aos-duration="1000"
+          data-aos="fade-right"
+          data-aos-duration="500"
         >
           <div className="mymovee sm:left-12  relative z-50">
             <img className="" src={vrguy} alt="" />

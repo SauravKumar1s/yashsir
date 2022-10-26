@@ -40,7 +40,7 @@ export const LoginPage = () => {
             </div>
           </div>
         </div>
-        <section className=" ">
+        <section className="background ">
           <div className="container px-6 py-12 h-full">
             <div className="flex justify-center items-center  h-full g-6 text-gray-800">
               <div className="md:w-8/12 lg:w-6/12 mb-12 md:mb-0">
@@ -50,7 +50,7 @@ export const LoginPage = () => {
                   alt="ary image"
                 />
               </div>
-              <div className=" background p-24  md:w-8/12 lg:w-5/12 lg:ml-20">
+              <div className="background p-24  md:w-8/12 lg:w-5/12 lg:ml-20">
                 <h1 className="text-3xl text-getTextClr text-center font-bold mb-8">
                   Get in Touch
                 </h1>

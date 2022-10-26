@@ -1,5 +1,5 @@
 import React from "react";
-import robo from "../img/robo.png";
+import robo from "../img/robo.jpg";
 import rect from "../img/rect.png";
 
 const WeAre = () => {

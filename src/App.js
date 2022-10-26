@@ -34,7 +34,11 @@ function App() {
               <Route exact path="/" element={<Home />} />
               <Route exact path="/contact" element={<ContactUs />} />
               <Route exact path="/blog" element={<Blog2 />} />
-              <Route exact path="/blog" element={<Blog2 />} />
+              <Route exact path="/vrgame" element={<ServiceUi />} />
+              <Route exact path="/game" element={<ServiceGame />} />
+              <Route exact path="/vrgame" element={<ServiceUi />} />
+              {/* <Route exact path="" element={<Service3d />} /> */}
+              
             </Routes>
           </BrowserRouter>
         </div>

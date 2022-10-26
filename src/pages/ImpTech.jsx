@@ -9,7 +9,8 @@ const ImpTech = () => {
   return (
     <>
       <div className="backgroundImg border-b-2 border-gray-700 shadow-lg">
-        <div className=" flex flex-col sm:flex sm:flex-row justify-around  md:flex text-xs  pt-24">
+
+        <div className=" flex flex-col sm:flex sm:flex-row justify-around  md:flex text-xs  pt-24" >
           <div className="">
             <div className="max-w-7xl mx-auto">
               <div className="sm:relative group">
