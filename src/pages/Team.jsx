@@ -5,10 +5,10 @@ import Footerr from "./Footerr";
 const Team = () => {
   return (
     <>
-      <div className="backgroundImgTeam z-50 pt-32 ">
+      <div className="backgroundImgTeam z-50 pt-28 ">
         <h1 className="text-3xl text-white ml-12 mb-12 ">#Our Team</h1>
-        <h1 className="text-3xl text-white text-center pb-24">
-          “No one can whistle a symphony. <br />
+        <h1 className="text-3xl text-white text-center pb-24 gradiantTextColor">
+          “No one can whistle a symphony. 
           It takes a whole orchestra to play it.”
         </h1>
         <div className=" mx-auto h-80 w-4/5  rounded-lg overflow-hidden ">

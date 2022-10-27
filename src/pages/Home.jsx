@@ -19,7 +19,7 @@ const Home = () => {
         <img className="hideMe2 absolute" src={home2} />
       </div>
 
-      {/* <img className="hideMe3" src={home3} /> */}
+      <img className="hideMe3" src={home3} />
 
       <section className="sm:w-screen backgroundImghead">
         <div className="sm:flex justify-center  ">

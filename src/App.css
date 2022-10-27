@@ -33,19 +33,50 @@ html {
   scroll-behavior: smooth;
 }
 .backgroundImgTeam {
-  background: url(img/BgParticlesLower.svg) no-repeat;
+  background: url(img2/ourteam.svg) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: 100%;
+  height: auto;
+  scroll-behavior: smooth;
+}
+.backgroundImgContact {
+  background: url(img2/contactt.svg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+  height: auto;
+  scroll-behavior: smooth;
+}
+.backgroundImgService {
+  background: url(img2/servicess.svg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+  height: auto;
   scroll-behavior: smooth;
 }
 .backgroundImgDemo {
-  background: url(img/BgParticlesLower.svg) no-repeat;
-  /* height: 150vmax; */
-  /* background-size: contain; */
+  background: url(img2/demos.svg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+  height: auto;
   scroll-behavior: smooth;
-  /* overflow-y: hidden; */
+}
+.backgroundImgCarrier {
+  background: url(img2/demos.svg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
+  height: auto;
+  scroll-behavior: smooth;
+  z-index: 1000;
 }
 
 .backgroundImghead {

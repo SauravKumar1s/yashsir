@@ -31,7 +31,7 @@ function App() {
           <div className="backgroundImghead">
             <Navbar /></div>
             <Routes>
-              <Route exact path="/" element={<Home />} />
+              {/* <Route exact path="/" element={<Home />} /> */}
               <Route exact path="/contact" element={<ContactUs />} />
               <Route exact path="/blog" element={<Blog2 />} />
               <Route exact path="/vrgame" element={<ServiceUi />} />
@@ -65,16 +65,18 @@ function App() {
       </div>
       <div className="backgroundImgDemo scroll-smooth">
         <div className="bg-black">
-          {/* <Services/>
-          <Demos/>
-          <Carrier/> */}
-          {/* <Blog2/> */}
-          {/* <OurVision/> */}
-          {/* <ServiceGame/> */}
-          {/* <ServiceMeta/> */}
-          {/* <Service3d/> */}
-          {/* <ServiceUi/> */}
-          {/* <ProjectCons /> */}
+          {/* <Team/> */}
+          {/* <ContactUs/> */}
+          <Services/>
+          {/* <Demos/> */}
+          <Carrier/>
+          <Blog2/>
+          <OurVision/>
+          <ServiceGame/>
+          <ServiceMeta/>
+          <Service3d/>
+          <ServiceUi/>
+          <ProjectCons />
         </div>
       </div>
     </>
