@@ -34,10 +34,10 @@ const Services = () => {
           style={{ width: `${ScrollTop}%` }}
         ></div>
       </div>
-      <div className="backgroundImgService z-50 pt-28 font-link h-screen">
+      <div className="backgroundImgService z-50 pt-28 font-link2 h-screen">
         <h1 className="text-3xl text-white ml-12 mb-4">#Services</h1>
         <h1 className="text-3xl text-white text-center mb-6 gradiantTextColor">
-        Helps you dive deep into the world of magic
+          Helps you dive deep into the world of magic
         </h1>
         <div className="flex flex-col  items-center justify-center ">
           <img className=" w-fit" src={servicegrl} alt="" srcset="" />
@@ -60,7 +60,7 @@ const Services = () => {
                     <h3 className="font-black text-getTextClr md:text-2xl text-xl p-2">
                       Lorem ipsum dolor sit.
                     </h3>
-                    <p className="md:text-xs text-white text-base w-11/12 p-2">
+                    <p className="md:text-xs text-white text-base w-11/12 p-2 font-link">
                       Architects sometimes have to convince customers that the
                       completed result is superior than 2D and 3D models, but VR
                       offers a better understanding of what to expect with the
@@ -70,7 +70,7 @@ const Services = () => {
                     </p>
                     <button
                       type="button"
-                      className="p-2 ml-2 w-28 text-xs  sm:mt-8 mt-8 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-2xl text-white"
+                      className="font-link p-2  ml-2 w-28 text-xs  sm:mt-8 mt-8 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-2xl text-white"
                     >
                       Check Demo
                     </button>
@@ -87,7 +87,7 @@ const Services = () => {
                   <h3 className="font-black text-getTextClr md:text-2xl text-xl p-2">
                     Lorem ipsum dolor sit.
                   </h3>
-                  <p className="md:text-xs text-white text-base w-11/12 p-2">
+                  <p className="font-link md:text-xs text-white text-base w-11/12 p-2">
                     Architects sometimes have to convince customers that the
                     completed result is superior than 2D and 3D models, but VR
                     offers a better understanding of what to expect with the
@@ -97,7 +97,7 @@ const Services = () => {
                   </p>
                   <button
                     type="button"
-                    className="p-2 w-28 text-xs  sm:mt-8 mt-8 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-2xl text-white"
+                    className="font-link p-2 w-28 text-xs  sm:mt-8 mt-8 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-2xl text-white"
                   >
                     Check Demo
                   </button>

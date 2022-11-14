@@ -1,10 +1,8 @@
 import { Transition, Menu } from "@headlessui/react";
-import React, { useState, Fragment } from "react";
+import React, { useState } from "react";
 import logo from "../img/LogoR.png";
 import aboutui from "../img2/aboutui.svg";
 import { NavLink } from "react-router-dom";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
-import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
 import "../css/navbar.css";
 
@@ -16,6 +14,7 @@ const Navbar = () => {
   const [issOpen, setOpen] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
   const toggleDropdown = () => setOpen(!isOpen);
+  const [isActive, setisActive] = useState(false);
 
   const handleItemClick = (id) => {
     selectedItem == id ? setSelectedItem(null) : setSelectedItem(id);
@@ -23,7 +22,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="z-50 lg:h-24 sm:fixed w-full  top-0 backdrop-blur-sm bg-white/5  text-white shadow-lg  font-link">
+      <header className="z-50 lg:h-24 sm:fixed w-full  top-0 backdrop-blur-sm bg-white/5  text-white shadow-lg  font-link2">
         <nav className=" border-gray-200 px-2 py-2  rounded dark:bg-gray-900">
           <div className="container flex flex-wrap justify-between items-center mx-auto">
             <a href="/" className="flex items-center">
@@ -87,14 +86,12 @@ const Navbar = () => {
                     <NavLink to="/">Home</NavLink>
                   </li>
 
-               
                   <li className="p-5 xl:p-8 active">
-                    <button
-                      className="relative dropdown:block"
-                      role="navigation"
-                      aria-haspopup="true"
-                    >
-                      <div className="flex justify-center items-center">
+                    <button>
+                      <div
+                        className="flex justify-center items-center "
+                        onClick={() => setisActive(!isActive)}
+                      >
                         Services{" "}
                         <svg
                           className="ml-2 w-4 h-4"
@@ -112,82 +109,26 @@ const Navbar = () => {
                           ></path>
                         </svg>
                       </div>
-                      <ul
-                        className="absolute right-0 hidden w-auto"
-                        aria-label="submenu"
-                      >
-                        <div className="absolute left-0 top-4 ">
-                          <div class="flex flex-row UiBack h-44 z-50 backgroundLogin text-xl font-medium text-white backgroun rounded-lg border border-gray-200 dark:bg-gray-700 dark:border-gray-600 dark:text-white">
-                            <li className="p-5 xl:p-8 active flex flex-row justify-center ">
-                              <NavLink
-                                className="flex flex-row  text-center w-98 items-center gap-2"
-                                to="/vrgame"
-                              >
-                                <div className="">
-                                  <img className="w" src={aboutui} />
-                                </div>{" "}
-                                <div className="m-2">Vr /Vx <br/> Devlopement</div>
-                              </NavLink>
-                            </li>
-                            <li className="p-5 xl:p-8 active flex flex-row justify-center ">
-                            <NavLink
-                                className="flex flex-row  text-center w-98 items-center gap-2"
-                                to="/game"
-                              >
-                                <div className="">
-                                  <img className="w" src={aboutui} />
-                                </div>{" "}
-                                <div className="m-2">Game <br/> Devlopement</div>
-                              </NavLink>
-                            </li>
-                            <li className="p-5 xl:p-8 active flex flex-row justify-center ">
-                            <NavLink
-                                className="flex flex-row  text-center w-98 items-center gap-2"
-                                to="/"
-                              >
-                                <div className="">
-                                  <img className="w" src={aboutui} />
-                                </div>{" "}
-                                <div className="m-2">3D <br/> Modling </div>
-                              </NavLink>
-                            </li>
-                            <div></div>
-                            
-                            <li className="p-5 xl:p-8 active flex flex-row justify-center ">
-                            <NavLink
-                                className="flex flex-row  text-center w-98 items-center gap-2"
-                                to="/"
-                              >
-                                <div className="">
-                                  <img className="w" src={aboutui} />
-                                </div>{" "}
-                                <div className="m-2">Metaverse<br/>
-developement  </div>
-                              </NavLink>
-                            </li>
-
-                            <li className="p-5 xl:p-8 active flex flex-row justify-center ">
-                            <NavLink
-                                className="flex flex-row  text-center w-98 items-center gap-2"
-                                to="/"
-                              >
-                                <div className="">
-                                  <img className="w" src={aboutui} />
-                                </div>{" "}
-                                <div className="m-2">Android <br/> Devlopement</div>
-                              </NavLink>
-                            </li>
-                            
-                            
-                          </div>
-                          
-                        </div>
-                        
-                      </ul>
                     </button>
+                    {isActive && (
+                      <div className="absolute  ">
+                        <div className="h-44 z-50 backgroundLogin flex flex-wrap flex-row w-3/4 p-2.5 text-white bg-white border rounded-md shadow-sm outline-none appearance-none focus:border-indigo-600">
+                          {" "}
+                          <ul className="grid grid-cols-3 ">
+                            <NavLink className="flex items-center">
+                              <img src={aboutui} />
+                              ar/vr/XR
+                              <br /> devlopement{" "}
+                            </NavLink>
+                            <NavLink>React with Tailwind CSS</NavLink>
+                            <NavLink>React With Headless UI</NavLink> <br />
+                            <NavLink>React With Headless UI</NavLink>
+                          </ul>
+                        </div>
+                      </div>
+                    )}
                   </li>
 
-                 
                   <li className=" active">
                     <button
                       className="relative dropdown:block"
@@ -252,7 +193,7 @@ developement  </div>
                               </NavLink>
                             </li>
                             <div></div>
-                            
+
                             <li className="p-5 xl:p-8 active flex flex-row justify-center ">
                               <NavLink
                                 className="flex flex-row  text-center w-32 gap-2"
@@ -276,17 +217,11 @@ developement  </div>
                                 <div className="m-2">Home</div>
                               </NavLink>
                             </li>
-                            
-                            
                           </div>
-                          
                         </div>
-                        
                       </ul>
                     </button>
                   </li>
-
-
 
                   <li className="p-5 xl:p-8">
                     <button
@@ -352,7 +287,7 @@ developement  </div>
                               </NavLink>
                             </li>
                             <div></div>
-                            
+
                             <li className="p-5 xl:p-8 active flex flex-row justify-center ">
                               <NavLink
                                 className="flex flex-row  text-center w-32 gap-2"
@@ -376,16 +311,12 @@ developement  </div>
                                 <div className="m-2">Home</div>
                               </NavLink>
                             </li>
-                            
-                            
                           </div>
-                          
                         </div>
-                        
                       </ul>
                     </button>
                   </li>
-           
+
                   <li className="p-5 ">
                     <NavLink to="/contact">
                       <span>Contact</span>

@@ -28,16 +28,17 @@ function App() {
       <div className="bg-black scroll-smooth">
         <div className=" z-50">
           <BrowserRouter>
-          <div className="backgroundImghead">
-            <Navbar /></div>
+          <div className="backgroundImghead" >
+            <Navbar />
+            </div>
             <Routes>
-              {/* <Route exact path="/" element={<Home />} /> */}
-              <Route exact path="/contact" element={<ContactUs />} />
+              <Route exact path="/" element={<Home />} />
+              {/* <Route exact path="/contact" element={<ContactUs />} />
               <Route exact path="/blog" element={<Blog2 />} />
               <Route exact path="/vrgame" element={<ServiceUi />} />
               <Route exact path="/game" element={<ServiceGame />} />
               <Route exact path="/vrgame" element={<ServiceUi />} />
-              {/* <Route exact path="" element={<Service3d />} /> */}
+              <Route exact path="" element={<Service3d />} /> */}
               
             </Routes>
           </BrowserRouter>
@@ -63,20 +64,20 @@ function App() {
       <div className="backgroundImg scroll-smooth">
         <div className="bg-black">{/* <Services/> */}</div>
       </div>
-      <div className="backgroundImgDemo scroll-smooth">
+      <div className="backgroundImgDemo scroll-smooth ">
         <div className="bg-black">
           {/* <Team/> */}
           {/* <ContactUs/> */}
-          <Services/>
-          {/* <Demos/> */}
+          {/* <Services/>
+          <Demos/>
           <Carrier/>
           <Blog2/>
           <OurVision/>
           <ServiceGame/>
-          <ServiceMeta/>
-          <Service3d/>
-          <ServiceUi/>
-          <ProjectCons />
+          <ServiceMeta/> */}
+          {/* <Service3d/>
+          <ServiceUi/> */}
+          {/* <ProjectCons /> */}
         </div>
       </div>
     </>
